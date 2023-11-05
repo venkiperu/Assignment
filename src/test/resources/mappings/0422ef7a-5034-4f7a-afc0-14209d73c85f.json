@@ -1,0 +1,25 @@
+{
+  "id" : "0422ef7a-5034-4f7a-afc0-14209d73c85f",
+  "name" : "search",
+  "request" : {
+    "url" : "/Search?Query=BBC",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "equalTo" : "application/json, application/*+json"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "bodyFileName": "../__files/0422ef7a-5034-4f7a-afc0-14209d73c85f.json",
+    "headers" : {
+      "Server" : "nginx/1.14.0",
+      "Date" : "Wed, 20 Jul 2022 16:47:39 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "0422ef7a-5034-4f7a-afc0-14209d73c85f",
+  "persistent" : true,
+  "insertionIndex" : 2
+}
