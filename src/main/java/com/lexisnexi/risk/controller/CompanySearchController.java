@@ -6,17 +6,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.reactive.function.client.WebClient;
 
 @RestController
 @RequestMapping("/TruProxyAPI/rest/Companies/v1")
 public class CompanySearchController {
-
-	private final WebClient companySearchWebClient;
-
-	public CompanySearchController(WebClient companySearchWebClient) {
-		this.companySearchWebClient = companySearchWebClient;
-	}
 
 	@GetMapping("/Search")
 	public ResponseEntity<CompanyDetails> getCompany() {
